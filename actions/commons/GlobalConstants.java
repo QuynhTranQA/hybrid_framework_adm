@@ -3,8 +3,8 @@ package commons;
 import java.io.File;
 
 public class GlobalConstants {
-	public static final String USER_URL = "https://demo.nopcommerce.com/";
-	public static final String ADMIN_URL = "https://admin-demo.nopcommerce.com";
+	public static final String USER_URL = "";
+	public static final String ADMIN_URL = "";
 	
 	public static final String PROJECT_PATH = System.getProperty("user.dir");
 	public static final String JAVA_VERSION = System.getProperty("java.version");
