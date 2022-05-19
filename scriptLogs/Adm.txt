@@ -1,0 +1,4 @@
+[2022-05-19 13:45:00,211] Pre-Condition - Step 01: Input to Username textbox
+[2022-05-19 13:45:00,666] Pre-Condition - Step 02: Input to Password textbox
+[2022-05-19 13:45:00,800] Pre-Condition - Step 03: Click to Login button and Open Dashboard site
+[2022-05-19 13:45:00,915] Pre-Condition - Step 04: Verify displayed Dashboard screen

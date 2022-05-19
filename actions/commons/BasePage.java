@@ -19,6 +19,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.DashBoardPO;
+import pageUIs.LoginPageUI;
+
 public class BasePage {
 	
 	public static BasePage getBasePage() {
@@ -505,6 +508,26 @@ public class BasePage {
 	
 	public void waitForAllElementClickable(WebDriver driver, String xpathExpression) {
 		new WebDriverWait(driver, longTimeout).until(ExpectedConditions.invisibilityOfAllElements(getListWebElement(driver, xpathExpression)));
+	}
+
+//	Login 
+	
+	public void enterToUsernameTextbox(WebDriver driver, String dbTestUser) {
+		waitForElementVisible(driver, LoginPageUI.USERNAME_TEXTBOX);
+		sendkeyToElement(driver, LoginPageUI.USERNAME_TEXTBOX, dbTestUser);
+		
+	}
+
+	public void enterToPasswordTextbox(WebDriver driver, String dbTestPass) {
+		waitForElementVisible(driver, LoginPageUI.PASSWORD_TEXTBOX);
+		sendkeyToElement(driver, LoginPageUI.PASSWORD_TEXTBOX, dbTestPass);
+		
+	}
+
+	public DashBoardPO clickToLoginButton(WebDriver driver) {
+		waitForElementClickable(driver, LoginPageUI.LOGIN_BUTTON);
+		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);
+		return PageGeneratorManager.getDashBoardPage(driver);
 	}
 
 	

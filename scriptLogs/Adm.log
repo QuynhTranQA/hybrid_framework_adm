@@ -1,0 +1,25 @@
+[2022-05-18 21:33:24,209] Pre-Condition - Step 01: Input to Username textbox
+[2022-05-18 21:33:24,581] Pre-Condition - Step 02: Input to Password textbox
+[2022-05-18 21:33:24,734] Pre-Condition - Step 03: Click to Login button and Open Dashboard site
+[2022-05-18 21:33:24,862] OS name = mac os x
+[2022-05-18 21:33:24,862] Driver instance name = chromedriver: chrome on mac (a6e68d8094145aa474a407bd1814281e)
+[2022-05-18 22:31:07,109] OS name = mac os x
+[2022-05-18 22:31:07,124] 
+[2022-05-18 22:34:49,354] Pre-Condition - Step 01: Input to Username textbox
+[2022-05-18 22:34:49,962] Pre-Condition - Step 02: Input to Password textbox
+[2022-05-18 22:34:50,149] Pre-Condition - Step 03: Click to Login button and Open Dashboard site
+[2022-05-18 22:34:50,369] OS name = mac os x
+[2022-05-18 22:34:50,370] Driver instance name = chromedriver: chrome on mac (20ceb76e5cb3ceb6c813794664732861)
+[2022-05-18 22:35:24,226] Pre-Condition - Step 01: Input to Username textbox
+[2022-05-18 22:35:24,640] Pre-Condition - Step 02: Input to Password textbox
+[2022-05-18 22:35:24,767] Pre-Condition - Step 03: Click to Login button and Open Dashboard site
+[2022-05-18 22:43:42,110] Pre-Condition - Step 01: Input to Username textbox
+[2022-05-18 22:43:42,543] Pre-Condition - Step 02: Input to Password textbox
+[2022-05-18 22:43:42,701] Pre-Condition - Step 03: Click to Login button and Open Dashboard site
+[2022-05-19 08:30:58,533] Pre-Condition - Step 01: Input to Username textbox
+[2022-05-19 08:30:58,935] Pre-Condition - Step 02: Input to Password textbox
+[2022-05-19 08:30:59,080] Pre-Condition - Step 03: Click to Login button and Open Dashboard site
+[2022-05-19 13:45:00,211] Pre-Condition - Step 01: Input to Username textbox
+[2022-05-19 13:45:00,666] Pre-Condition - Step 02: Input to Password textbox
+[2022-05-19 13:45:00,800] Pre-Condition - Step 03: Click to Login button and Open Dashboard site
+[2022-05-19 13:45:00,915] Pre-Condition - Step 04: Verify displayed Dashboard screen

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on CHROME"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.005">
+  <properties />
+  
+  
+            <testcase name="TC_Create_CVHT" time="0.005" classname="com.adm.Adm_Login" />
+      
+</testsuite>

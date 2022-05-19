@@ -2,18 +2,18 @@ package commons;
 
 import org.openqa.selenium.WebDriver;
 
-import pageObjects.DashBoardPageObject;
-import pageObjects.LoginPageObject;
+import pageObjects.DashBoardPO;
+import pageObjects.LoginPO;
 
 
 public class PageGeneratorManager {
 	
-	public static LoginPageObject getUserHomePage(WebDriver driver) {
-		return new LoginPageObject(driver);
+	public static LoginPO getUserHomePage(WebDriver driver) {
+		return new LoginPO(driver);
 	}
 	
-	public static DashBoardPageObject getDashBoardPage(WebDriver driver) {
-		return new DashBoardPageObject(driver);
+	public static DashBoardPO getDashBoardPage(WebDriver driver) {
+		return new DashBoardPO(driver);
 	}
 	
 }

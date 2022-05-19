@@ -3,7 +3,7 @@ package commons;
 import java.io.File;
 
 public class GlobalConstants {
-	public static final String USER_URL = "";
+	public static final String USER_URL = "https://adm.xoay.io/#/login";
 	public static final String ADMIN_URL = "";
 	
 	public static final String PROJECT_PATH = System.getProperty("user.dir");
@@ -24,7 +24,7 @@ public class GlobalConstants {
 	public static final String DB_DEV_PASS = "changeme";
 	
 	public static final String DB_TEST_URL = "192.168.1.23:9860";
-	public static final String DB_TEST_USER = "quynh.tran";
+	public static final String DB_TEST_USER = "quynh.tran@thebank.com.vn";
 	public static final String DB_TEST_PASS = "changeme";
 	
 	public static final long SHORT_TIMEOUT = 5;
