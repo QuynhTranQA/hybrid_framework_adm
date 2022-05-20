@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 import commons.BaseTest;
 import commons.GlobalConstants;
 import commons.PageGeneratorManager;
+import pageObjects.CommissionerPO;
 import pageObjects.DashBoardPO;
 import pageObjects.LoginPO;
 
@@ -19,7 +20,8 @@ public class Adm_Commisstioner extends BaseTest{
 	
 	LoginPO loginPage;
 	DashBoardPO dashBoardPage;
-	String userName = "quynh.tran@thebank.com.vn";
+	CommissionerPO commissionerPage;
+ 	String userName = "quynh.tran@thebank.com.vn";
 	String passWord = "changeme";
 	
 	@Parameters({"browser", "urlAdmin"})
@@ -51,7 +53,13 @@ public class Adm_Commisstioner extends BaseTest{
 	public void TC_01_Commissioner_Create_Success() {
 		log.info("Commissioner_Create - Step 01: Click 'CV hệ thống' menu");
 		
+		dashBoardPage.clickToMenu(driver, "CV hệ thống");
+		
 		log.info("Commissioner_Create - Step 02: Click 'Danh sách CV' menu");
+		
+		dashBoardPage.clickToSubMenu(driver, "Danh sách CV");
+		
+		commissionerPage = PageGeneratorManager.getCommissionerPage(driver);
 		
 		log.info("Commissioner_Create - Step 03: Click 'Tạo mới' button");
 		

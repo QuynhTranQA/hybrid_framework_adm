@@ -17,7 +17,7 @@
 		<parameter name="browser" value="chrome" />
 		
 		<classes>
-			<class name="com.adm.Adm_Login" />
+			<class name="com.adm.Adm_Commisstioner" />
 		</classes>
 		
 		
