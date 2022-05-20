@@ -20,6 +20,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageObjects.DashBoardPO;
+import pageUIs.DashBoardPageUI;
 import pageUIs.LoginPageUI;
 
 public class BasePage {
@@ -530,7 +531,18 @@ public class BasePage {
 		return PageGeneratorManager.getDashBoardPage(driver);
 	}
 
+	// menu
 	
+	public void clickToMenu(WebDriver driver, String menu) {
+		waitForElementClickable(driver, DashBoardPageUI.MENU_BUTTON, menu);
+		clickToElement(driver, DashBoardPageUI.MENU_BUTTON, menu);
+		
+	}
+
+	public void clickToSubMenu(WebDriver driver, String submenu) {
+		waitForElementClickable(driver, DashBoardPageUI.SUB_MENU_BUTTON , submenu);
+		clickToElement(driver, DashBoardPageUI.SUB_MENU_BUTTON, submenu);
+	}
 	
 	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
 	private long shortTimeout = GlobalConstants.SHORT_TIMEOUT;
