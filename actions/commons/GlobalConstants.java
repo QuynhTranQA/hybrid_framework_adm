@@ -20,8 +20,8 @@ public class GlobalConstants {
 	public static final String REPORTNG_SCREENSHOT = PROJECT_PATH + File.separator + "reportNGImages" + File.separator;
 	
 	public static final String DB_DEV_URL = "192.168.1.15:9860";
-	public static final String DB_DEV_USER = "quynh.tran";
-	public static final String DB_DEV_PASS = "changeme";
+	public static final String DB_DEV_USER = "nhi.hoang@thebank.com.vn";
+	public static final String DB_DEV_PASS = "000000";
 	
 	public static final String DB_TEST_URL = "192.168.1.23:9860";
 	public static final String DB_TEST_USER = "quynh.tran@thebank.com.vn";
